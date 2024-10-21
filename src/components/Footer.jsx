@@ -22,10 +22,10 @@ const Footer = () => {
         <Link style={{textDecoration:'none', color:'black',  fontWeight:'600',fontSize:'15px'}} to={'/history'}>Shop</Link>
       </div>
       <div className="col-lg-2 d-flex flex-column">
-        <h5 style={{fontWeight:'600',fontSize:'20px'}}>Guides</h5>
-        <Link style={{textDecoration:'none', color:'black', fontWeight:'600',fontSize:'15px'}}>React</Link>
-        <Link style={{textDecoration:'none', color:'black', fontWeight:'600',fontSize:'15px'}}>React Bootstrap</Link>
-        <Link style={{textDecoration:'none', color:'black',  fontWeight:'600',fontSize:'15px'}}>React Router</Link>
+        <h5 style={{fontWeight:'600',fontSize:'20px'}}>About</h5>
+        <Link style={{textDecoration:'none', color:'black', fontWeight:'600',fontSize:'15px'}}>Connect With Newsletter</Link>
+        <Link style={{textDecoration:'none', color:'black', fontWeight:'600',fontSize:'15px'}}>Contact</Link>
+        <Link style={{textDecoration:'none', color:'black',  fontWeight:'600',fontSize:'15px'}}>Services</Link>
 
        
       </div>
@@ -47,7 +47,6 @@ const Footer = () => {
        
       </div>
 
-      <span style={{textAlign:'center', color:'black'}}>Copyright June 2024 Batch, Media Player.Built with React</span>
     </div>
     </>
   )
